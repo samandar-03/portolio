@@ -1,0 +1,1 @@
+var type = new Typed('.typing_text')

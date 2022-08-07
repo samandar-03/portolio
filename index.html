@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+       <div class="user">
+        <img class="user_img" src="https://picsum.photos/id/1005/130/130" alt="user img">
+        <h3 class="name">shaikh anas</h3>
+        <p class="post">front end Developer</p>
+       </div>
+       <nav class="navbar">
+        <ul class="nav_list">
+            <li class="nav_item"><a class="nav_link" href="#home">Home</a></li>
+            <li class="nav_item"><a class="nav_link" href="#about">About</a></li>
+            <li class="nav_item"><a class="nav_link" href="#servise">Servise</a></li>
+            <li class="nav_item"><a class="nav_link" href="#education">Education</a></li>
+            <li class="nav_item"><a class="nav_link" href="#contact">Contact</a></li>
+        </ul>
+       </nav>
+    </header>
+    <div class="container">
+        <section class="home" id="home">
+            <h3 class="home_title">hi there...</h3>
+            <h3 class="name">may neme is <span class="name_text">Samandar</span></h3>
+            <h3 class="posts post">I am a <span class="typing_text post_text">Front end developer</span></h3>
+            <button class="btn">hire me</button>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-pinterest"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <h1 class="heading">About me</h1>
+            <div class="content">
+                <h3 class="name">may neme is <span class="name_text">Samandar</span></h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit perferendis temporibus id doloremque, molestias numquam fugiat impedit, a non, possimus inventore vero voluptates consequuntur illo eum beatae
+                </p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In esse fugit possimus inventore vero voluptates consequuntur illo eum beatae laborum?</p>
+            </div>
+            <div class="skills">
+                <div class="progress">
+                    <h3>HTML <span>80%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+                <div class="progress">
+                    <h3>CSS <span>75%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+                <div class="progress">
+                    <h3>javascript <span>65%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+                <div class="progress">
+                    <h3>REACT <span>60%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="js/mein.js"></script>
+    <script>
+        var type = new Typed('.typing_text', {
+            strings : ['wep designer', 'front end developer'],
+            typeSpeed: 120,
+            loop: true,
+        })
+    </script>
+</body>
+</html>
